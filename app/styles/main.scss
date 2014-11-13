@@ -1,0 +1,16 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+.consul {
+  position: absolute;
+  z-index: 1000;
+  left: 20px;
+  top: 20px;
+  padding: 10px;
+  width: 300px;
+}
+.consulcontents {
+  background-color: #ccc;
+  opacity: 0.9;
+}

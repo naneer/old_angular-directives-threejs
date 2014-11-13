@@ -1,0 +1,20 @@
+<accordion class="consul" close-others="oneAtATime">
+  <form name="console" ng-submit="submitForm(console)"> 
+    <accordion-group heading="ng3" class="consulcontents">
+                <h5>Upload File</h5><div ng3-modelloader></div> 
+                <h5>Ambient Light</h5><div ng3-ambientlighter></div> 
+                <h5>Axes Helper</h5><div ng3-axes></div> 
+                <h5>Floor</h5><div ng3-floorselector></div> 
+                <!-- credit goes to Pieter ‘Spiney’ Verhoeven web: http://www.spiney.me/license: http://creativecommons.org/licenses/by/3.0/ --> 
+                <h5>SkyBox</h5><div ng3-skyboxselector></div>
+                <h5>Trackball Controls</h5><div ng3-kontrols></div>
+    </accordion-group>
+    <accordion-group heading="save" class="consulcontents">
+                <h5>Name</h5><input type="text" ng-model="console.name"></input> 
+                <button type="submit">Save</button>
+    </accordion-group>
+  <accordion-group heading="files" class="consulcontents">
+        <div ng3-filelist></div>
+  </accordion-group>
+  </form>
+</accordion>
